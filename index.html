@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="HTML and CSS Best Practices" content="HTML best practices are rules that help you create websites that are easy to maintain and read. Here are some guidelines for building an HTML-based website and important tips for writing better CSS.">
     <title>PEC1 Practice</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img\favicon.ico">
 </head>
 <body> 
     <header>
-        <div>
-            <h1>HTML and CSS Best Practices</h1>
-        </div>
-            <nav>
+        <div class="container cover-image">
+            <h1><abbr title="HyperText Markup Language">HTML</abbr> and CSS Best Practices</h1>
+        </div> 
+            <nav class="container">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="https://www.uoc.edu/portal/es/index.html">UOC</a></li>
@@ -21,18 +21,18 @@
                     <li><a href="#">Contactar</a></li>
                 </ul>
             </nav>
-       
+
     </header>
-    <main>
+    <main class="container">
         <article>
             <section>
-                <h2>HTML Best Practices</h2>
+                <h2><abbr title="HyperText Markup Language">HTML</abbr> Best Practices</h2>
                 <p><abbr title="HyperText Markup Language">HTML</abbr> best practices are rules that help you create websites that are easy to maintain and read.</p>
                 <figure>
-                <img src="img/trabajando.jpg" alt="image of people working in an office">
+                <img class="image-responsive" src="img/trabajando.jpg" alt="image of people working in an office">
                 <figcaption>People working</figcaption>
                 </figure>
-                <h3>Here are some guidelines to keep in mind when building an HTML-based website:</h3>
+                <h3>Here are some guidelines to keep in mind when building an <abbr title="HyperText Markup Language">HTML</abbr>-based website:</h3>
                 <p>Use only one <code>&lt;h1&gt;</code> for one code sheet</p>
                 <p>There are six different heading tags in <abbr title="HyperText Markup Language">HTML</abbr> , <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>. The <code>&lt;h1&gt;</code> tag is the main heading (subject of the web page) while the <code>&lt;h6&gt;</code> tag is the least important heading.</p>
                 <p>The <code>&lt;h1&gt;</code> tag is bigger than the <code>&lt;h2&gt;</code> tag, the <code>&lt;h2&gt;</code> tag is bigger than the <code>&lt;h3&gt;</code> tag, all the way down to the <code>&lt;h6&gt;</code> tag. Each of the headings decreases in size according to its importance.</p>
@@ -71,7 +71,7 @@
             <p>This is why I always recommend using the <a href="https://validator.w3.org/">W3c markup validation service</a> to double-check your codes.</p>
             <p>You can double-check your code by copying its URL and pasting it on the site or uploading your <abbr title="HyperText Markup Language">HTML</abbr> file.</p>
             <p>You can read the full article at <a href="https://www.freecodecamp.org/news/html-best-practices">https://www.freecodecamp.org/news/html-best-practices</a></p>
-            <h2>Important Tips for Writing Better CSS</h2>
+            <h2>Important Tips for Writing Better <abbr title="“Cascading Style Sheets">CSS</abbr></h2>
             <p>One of the biggest issues in programming is dealing withmaintenance. In a real-world scenario, we don't always start developingprojects from scratch. Mostly, we are assigned (or take) a project that hasalready been written maybe a couple of years before or even longer.</p>
             <p>To work efficiently on that project, first we need tounderstand the source code. This is the point when we immediately realize theimportance of clean code. As developers, we must try to write ourcode as cleanly as possible.This is also the case for <abbr title="“Cascading Style Sheets">CSS</abbr>.</p>
             <p>There are some points we needto pay attention to while writing <abbr title="“Cascading Style Sheets">CSS</abbr>. In this post, I would like to share someof the most important ones with you. I believe these tips will help you toimprove the quality of your <abbr title="“Cascading Style Sheets">CSS</abbr> code.So let's begin...</p>       
@@ -100,8 +100,8 @@
         </section>
         </article>
     </main>
-    <footer>
-        <p>Name Lastname | Practice UOC 2022</p>
+    <footer class="container text-footer">
+        <p>Thabata Denise Monteiro | Practice UOC 2023</p>
 
     </footer>
 </body>
